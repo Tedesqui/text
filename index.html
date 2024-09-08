@@ -14,7 +14,12 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
-<a-entity gltf-model="assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude:-22.960985, latitude:-44.441139" animation-mixer/>
+<a-entity gltf-model="assets/magnemite/scene.gltf" 
+  look-at="[gps-camera]"
+  rotation="0 180 0"
+  scale="0.15 0.15 0.15" 
+  gps-entity-place="longitude:<-22.960985>, latitude:<-44.441139>;" animation-mixer/>
+
       >
       </a-entity>
     </a-nft>
